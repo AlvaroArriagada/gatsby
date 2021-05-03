@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import '../styles/index.css';
+import { navigate } from "gatsby"
 
 function Index() {
   const [date, setDate] = useState(null);
@@ -18,8 +19,8 @@ function Index() {
         <title>La Kombi Growshop</title>
       </Helmet>
       <h1>La Kombi GrowShop</h1>
-      <p1>Nueva sitio de Growshop</p1>
-      
+      <button onClick={()=>{navigate("https:://lakombigrowshop.com")}}>Page button</button>
+      <button onClick={()=>{navigate("/lakombi")}}>Page button</button>
     </main>
   );
 }
