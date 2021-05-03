@@ -26,10 +26,13 @@ function Index() {
         <Button size="medium" variant="contained" color="primary">
           Frutillar
         </Button>
+      </Link>
+      <Link href="https://lakombigrowshopsantiago.cl/" target="_blank">
         <Button size="medium" variant="contained" color="primary">
           Santiago
         </Button>
       </Link>
+      
     </main>
   );
 }
