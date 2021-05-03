@@ -8,7 +8,6 @@ import Button from '@material-ui/core/Button';
 
 function Index() {
   const [date, setDate] = useState(null);
-  const classes = useStyles();
   useEffect(() => {
     async function getDate() {
       const res = await fetch('/api/date');
