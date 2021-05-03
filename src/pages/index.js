@@ -18,7 +18,7 @@ function Index() {
         <title>La Kombi Growshop</title>
       </Helmet>
       <h1>La Kombi GrowShop</h1>
-      <p1>Página de inicio para La Kombi Growshop</p1>
+      <p1>Nueva sitio de Growshop</p1>
       
     </main>
   );
